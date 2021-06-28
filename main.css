@@ -1,0 +1,242 @@
+
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #000000;
+  /* color: white; */
+  border-radius: 0.25rem;
+}
+
+.breadcrumb-item.active {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+#faq .card {
+  margin-bottom: 10px;
+  border: 0;
+}
+
+#faq .card .card-header {
+  border-bottom: 2px solid#39da39;
+  border-radius: 2px;
+  padding: 0;
+  background-color: #fff;
+}
+
+#faq .card .card-header .btn-header-link {
+
+  display: block;
+  text-align: left;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+#faq .card .card-header .btn-header-link:after {
+  content: url(/images/plus.png);
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+
+}
+
+#faq .card .card-header .btn-header-link.collapsed {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#faq .card .card-header .btn-header-link.collapsed:after {
+  content: url(/images/one.png);
+  /*content: url(/images/line.png);*/
+  color: #000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#faq .card .collapsing {
+  background: #fff;
+  line-height: 30px;
+}
+
+#faq .card .collapse {
+  border: 0;
+}
+
+#faq .card .collapse.show {
+  background: #fff;
+  line-height: 30px;
+  color: #222;
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+
+  }
+}
+
+/* new media query */
+
+@media (min-width:320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: right -35% top 2%;
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:481px) {
+
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: right -35% top 2%;
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width:641px) {
+
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: right -35% top 2%;
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 90%;
+  }
+}
+
+@media (min-width:961px) {
+
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: right -35% top 2%;
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 90%;
+  }
+}
+
+@media (min-width:1025px) {
+
+  /* big landscape tablets, laptops, and desktops */
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: right -35% top 2%;
+    background-image: url("images/noname.jpg");
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:1281px) {
+
+  /* hi-res laptops and desktops */
+
+  body {
+
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: right -19% top 2%;
+    background-image: url("images/noname.jpg");
+
+  }
+
+  .col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 50%;
+  }
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.spacer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #39da39;
+  font-weight: bold;
+}
